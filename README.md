@@ -4,9 +4,7 @@ Console permettant de réaliser des publications de messages sur des addresses 0
 est destiné à simuler des comportements en bouchon dans une architecture de messaging basée
 sur 0-MQ.
 
-## Dépendances
-
-Pour installer les dépendances :
+## Installation des dépendances
 
 ```
 pip install -r requirements.txt
