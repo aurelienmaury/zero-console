@@ -1,2 +1,0 @@
-publish --to ipc:///tmp/console
-pub "alphapack"

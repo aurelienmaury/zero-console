@@ -1,0 +1,2 @@
+publish --to ipc:///tmp/zero-console-pub
+pub "OMFG it's working"
