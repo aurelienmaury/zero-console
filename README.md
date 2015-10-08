@@ -4,6 +4,14 @@ Console permettant de réaliser des publications de messages sur des addresses 0
 est destiné à simuler des comportements en bouchon dans une architecture de messaging basée
 sur 0-MQ.
 
+## Dépendances
+
+Pour installer les dépendances :
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage interactif
 
 ```
@@ -18,7 +26,7 @@ Sent: ipc:///tmp/zero-console-pub ==> "OMFG it's working"
 Dans cet exemple, tout client 0-MQ abonné sur ```ipc:///tmp/zero-console-pub``` recevra le message
 envoyé.
 
-# Usage scripté
+# Usage script
 
 Vous pouvez aussi écrire des scripts correspondants dans un fichier et l'injecter dans la
 console :
